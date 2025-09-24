@@ -1,0 +1,24 @@
+{
+  "name": "local-mcp-server",
+  "version": "1.0.0",
+  "description": "A simple local MCP server for Claude",
+  "main": "simple-mcp-server.js",
+  "scripts": {
+    "start": "node simple-mcp-server.js",
+    "dev": "nodemon simple-mcp-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "api",
+    "local-server"
+  ],
+  "author": "",
+  "license": "MIT"
+}
